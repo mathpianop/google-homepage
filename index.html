@@ -4,6 +4,7 @@
 width: 250px
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
+
     }
     .headerlinks {
       font-family: Arial;
@@ -12,12 +13,17 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 #Gmail {
   justify-self: center;
+  grid-column: 1/2;
 }
 #Images {
   justify-self: center;
+  grid-column: 2/3;
+}
 }
 #Initial {
   justify-self: center;
+  grid-column: 4/5;
+}
 }
     a:link {
       text-decoration: none;
