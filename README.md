@@ -1,0 +1,1 @@
+<This is Paul using HTML/CSS for a real project for the first time, yay!! He is going to create a webpage that looks like the Google homepage, but will in reality do nothing. His enormous pride in spite of that fact is probably the result of some deep-seated insecurity that he should probably address at some point. Also, he will continue referring to himself in the third-person.>
