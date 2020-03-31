@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <style>
     header {
-width: 250px
-display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
+      display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+      
+  float: right
 
     }
     .headerlinks {
@@ -12,19 +13,20 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
       font-size: 14px;
     }
 #Gmail {
-  justify-self: center;
-  grid-column: 1/2;
+ align-self: center;
 }
 #Images {
-  justify-self: center;
-  grid-column: 2/3;
-}
+  align-self: center;
 }
 #Initial {
+  align-self: center;
+}
+#ninedots {
+    height: 30px;
+    align-self: center;
   justify-self: center;
-  grid-column: 4/5;
-}
-}
+  }
+
     a:link {
       text-decoration: none;
     }
@@ -44,7 +46,7 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
     }
     main {
       position: relative;
-      top: 100px;
+      top: 75px;
     }
     #Logo {
 display: block;
@@ -67,7 +69,7 @@ input {
 <header>
   <a id="Gmail" class="headerlinks" href="https://mail.google.com/mail/u/0/#inbox">Gmail</a>
   <a id="Images" class="headerlinks" href="https://www.google.com/imghp?hl=en&tab=ri&authuser=0&ogbl">Images</a>
-  <div></div>
+  <img id="ninedots" src="https://www.researchgate.net/profile/Anna-Mari_Rusanen/publication/278037230/figure/fig1/AS:294377252507648@1447196414106/The-nine-dots-problem.png">
   <div id="Initial" class="Initialicon">P</div>
 </header>
 <main>
